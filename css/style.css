@@ -1,0 +1,280 @@
+/* Pink - #ec008c*/
+/* Blue - #276EF1*/
+html {
+    scroll-behavior: smooth;
+    overflow-y: smooth;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Raleway', sans-serif;
+}
+
+.scroll {
+    padding-top: 55px;
+}
+
+.nav-colored {
+    background: black;
+}
+
+.nav-transparent {
+    background: transparent;
+}
+
+.nav-inherit {
+    background: inherit;
+}
+
+#nav #brand {
+    font-size: 1.5em;
+    float: none;
+    padding: 30px 15px 0px 15px;
+    line-height: 10px;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+
+#nav {
+    color: #fff;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+#navItemsDiv {
+    text-align: right
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 30px 20px 0px 20px;
+    line-height: 10px;
+    height: 40px;
+}
+
+#nav a:hover {
+    background-color: #ec008c;
+    cursor: pointer;
+    color: white
+}
+
+.blue:hover {
+    color: #276EF1
+}
+
+.pink:hover {
+    color: #ec008c
+}
+
+#landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/landingBackground.jpg) center center / cover no-repeat fixed;
+    color: #fff
+}
+
+#landingDiv {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#landing img {
+    margin-top: 100px;
+}
+
+#landingDiv h1 {
+    margin: 8px;
+    font-size: 2.5rem;
+}
+
+#landingDiv h3 {
+    margin: 8px;
+    font-size: 1.5rem;
+}
+
+.contact {
+    font-size: 1rem;
+    margin: 8px;
+    white-space: nowrap;
+}
+
+#social {
+    font-size: 2.25rem;
+    margin: 8px;
+    /*color: #276EF1*/
+}
+
+#social a {
+    color: white;
+}
+
+
+.resumeBtn {
+    border: 3px solid #fff;
+    color: #fff;
+    font-family: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 15px 40px;
+    display: block;
+    margin: 8px auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.btnBlue:hover {
+    color: #fff;
+    background: #276EF1;
+    border: 3px solid #276EF1;
+}
+
+.btnPink:hover {
+    color: #fff;
+    background: #ec008c;
+    border: 3px solid #ec008c
+}
+
+#aboutMe {
+    width: 70%;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+#aboutMe h1 {
+    font-size: 2.25rem;
+    color: #000;
+    text-align: center;
+    color: #ec008c
+}
+
+#aboutMe h3 {
+    font-size: 1.5rem;
+    color: #ec008c;
+    margin: 15px;
+}
+
+#aboutMe p {
+    color: #276EF1;
+    font-size: 1rem;
+    margin: 15px;
+}
+
+#projects {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images6.alphacoders.com/330/330287.png) center bottom / cover no-repeat fixed;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#projectsDiv {
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    max-width: 935px;
+}
+
+#projectsDiv h1 {
+    font-size: 2.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.projectDiv {
+    width: 250px;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 30px;
+    padding-bottom: 20px;
+    background: #fff;
+
+}
+
+.projectDiv:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.projectDiv a {
+    color: #276EF1;
+    text-decoration: none;
+}
+
+.projectDiv a:hover {
+    color: #ec008c
+}
+
+.projectDiv img {
+    width: 250px;
+    height: 250px;
+    margin: 0px auto 20px;
+    display: block;
+}
+
+
+
+.projectDiv h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 8px;
+}
+
+.projectDiv p {
+    margin: 12px;
+    text-align: left
+}
+
+.description {
+    font-size: .95rem;
+}
+
+#code {
+    font-size: 1.25rem;
+    display: inline;
+    margin: 8px;
+    color: #276EF1
+}
+
+#live {
+    display: inline;
+    font-size: 1.25rem;
+    margin: 8px;
+    margin-left: 30px;
+    color: #276EF1
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+    background: #000;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+footer h1 {
+    font-size: 1.5rem;
+}
+
+footer a {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 800px) {
+    
+
+    #navItemsDiv {
+        text-align: center
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    #projectsDiv, #aboutMe{
+        width: 100%;
+    }
+}
